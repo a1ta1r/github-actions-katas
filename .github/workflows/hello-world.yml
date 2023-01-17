@@ -3,6 +3,7 @@ on:
   pull_request:
     branches:
       - main
+      - actions-trigger-test-branch
 jobs:
   Clone-down:
     runs-on: ubuntu-latest
